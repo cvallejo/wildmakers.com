@@ -50,7 +50,7 @@ $TiempoInicial = getTiempo();
      <div class="container">
           <section class="call_to_action">
                <h3>Vibratings wines from expressive terroir</h3>
-               <h4>The "Wild" in Wildmakers refers to the untamed, natural expression of life we want to deliver in the wines we make. As winemakers and viticulturists, our goal is to unleash the living soil's potential through the vines, and help nature create pure, fascinating, delicious and unique wines.</h4>
+               <h4>The "Wild" in Wildmaker refers to the untamed, natural expression of life we want to deliver in the wines we make. As winemakers and viticulturists, our goal is to unleash the living soil's potential through the vines, and help nature create pure, fascinating, delicious and unique wines.</h4>
           </section>
           <section id="portfolio_teasers_wrapper">
                <h2 class="section_header">Some of our projects</h2>
