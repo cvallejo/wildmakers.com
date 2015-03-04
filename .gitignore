@@ -1,7 +1,9 @@
 # Created by .ignore support plugin (hsz.mobi)
 ### Vagrant template
 .vagrant/
+firma/
 bkp/
 old/
 new/
-.idea
+/.idea
+*.sh
