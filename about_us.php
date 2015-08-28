@@ -60,11 +60,15 @@ $TiempoInicial = getTiempo();
                     <div class="row">
                     	 <div class="span3"></div>
                          <div class="span3 team_member">
-                              <figure style="background-image: url(images/0de61a87820abd0d99cfb2b6be57f7f7.jpg)"><img src="images/0de61a87820abd0d99cfb2b6be57f7f7.jpg" alt="1a"></figure>
-                              <h5>Multiple Collaborators</h5>
-                              <small>Winemakers & Agronomists</small>
+                              <figure style="background-image: url(images/jose2.png)"><img src="images/jose1.png" alt="1a"></figure>
+                              <h5>José Miguel Sotomayor</h5>
+                              <small>Co-Founder & Winemaker</small>
                               <hr>
-                              <p class="short_bio">We ask our colleagues to combine their skills with ours for the benefit of our projects.</p>
+                              <div class="team_social">
+                                <a href="//www.facebook.com/Wildmakers"><i class="icon icon-facebook"></i></a>
+                                <a href="//cl.linkedin.com/pub/jose-miguel-sotomayor/9/954/533/es"><i class="icon icon-linkedin"></i></a>
+                              </div>
+                              <p class="short_bio">Cooking, music & wine: the basic steps for a winemaker.</p>
                          </div>
                          <div class="span3 team_member">
                               <figure style="background-image: url(images/luca1.png)"><img src="images/luca_0.jpg" alt="2a"></figure>
@@ -75,6 +79,7 @@ $TiempoInicial = getTiempo();
                               	<a href="//www.facebook.com/Wildmakers"><i class="icon icon-facebook"></i></a>
                               	<a href="//twitter.com/luca_hodgkinson"><i class="icon icon-twitter"></i></a>
                               	<a href="//cl.linkedin.com/pub/luca-hodgkinson/16/b2a/939/es"><i class="icon icon-linkedin"></i></a>
+                              </div>
 <!--                               	<a href="#googleplus"><i class="icon icon-google-plus"></i></a> </div> -->
                               <p class="short_bio">Cooking, music & wine: the basic steps for a winemaker.</p>
                          </div>
