@@ -68,7 +68,7 @@ $TiempoInicial = getTiempo();
                                 <a href="//www.facebook.com/Wildmakers"><i class="icon icon-facebook"></i></a>
                                 <a href="//cl.linkedin.com/pub/jose-miguel-sotomayor/9/954/533/es"><i class="icon icon-linkedin"></i></a>
                               </div>
-                              <p class="short_bio">Cooking, music & wine: the basic steps for a winemaker.</p>
+                              <p class="short_bio">Wine, music & food; steps for share with friends and enjoy the life.</p>
                          </div>
                          <div class="span3 team_member">
                               <figure style="background-image: url(images/luca1.png)"><img src="images/luca_0.jpg" alt="2a"></figure>
