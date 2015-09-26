@@ -19,7 +19,7 @@ $TiempoInicial = getTiempo();
 <header>
 <?php include("header.php"); ?>
 </header>
-<div class="full_page_photo" style="background-image: url(images/about_us.png);">
+<div class="full_page_photo" style="background-image: url(images/about_us1.jpg);">
      <div class="container">
 <!--
           <section class="call_to_action">
