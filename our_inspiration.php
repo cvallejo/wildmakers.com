@@ -2,8 +2,9 @@
 // Codigo a insertar al principio de la web
 function getTiempo()
 {
-list($usec, $sec) = explode(" ",microtime());
-return ((float)$usec + (float)$sec);
+    list($usec, $sec) = explode(' ', microtime());
+
+    return (float) $usec + (float) $sec;
 }
 $TiempoInicial = getTiempo();
 ?>
@@ -13,11 +14,11 @@ $TiempoInicial = getTiempo();
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-<?php include("head.php"); ?>
+<?php include 'head.php'; ?>
 </head>
 <body class="boxed">
 <header>
-<?php include("header.php"); ?>
+<?php include 'header.php'; ?>
 </header>
 
 <div id="main">
@@ -153,7 +154,7 @@ $TiempoInicial = getTiempo();
           </section>
      </div>
      <footer>
-		 <?php include("footer.php"); ?>
+		 <?php include 'footer.php'; ?>
      </footer>
 
 </div>

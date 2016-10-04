@@ -14,25 +14,25 @@
                               <div class="flexslider" id="portfolio_slider">
                                    <ul class="slides">
 	                                   <?php
-		                                   $carpeta = "images/projects/soraya_wines/";
-		                                   $prefix_img ="sw";
-		                                   $total_imagenes = count(glob($carpeta."{*.jpg,*.gif,*.png}",GLOB_BRACE));
-		                                   for($i=1;$i<$total_imagenes+1;$i++){
-			                                   echo "<li class=\"item\" data-thumb=\"".$carpeta.$prefix_img.$i.".jpg\" style=\"background-image: url(".$carpeta.$prefix_img.$i.".jpg)\">";
-			                                   echo "<div class=\"container\"> <a href=\"".$carpeta.$prefix_img.$i.".jpg\" rel=\"prettyPhoto[gal]\"></a>";
-			                                   echo "</div>";
-			                                   echo "</li>";
-		                                   }
-		                               ?>
+                                           $carpeta = 'images/projects/soraya_wines/';
+                                           $prefix_img = 'sw';
+                                           $total_imagenes = count(glob($carpeta.'{*.jpg,*.gif,*.png}', GLOB_BRACE));
+                                           for ($i = 1; $i < $total_imagenes + 1; $i++) {
+                                               echo '<li class="item" data-thumb="'.$carpeta.$prefix_img.$i.'.jpg" style="background-image: url('.$carpeta.$prefix_img.$i.'.jpg)">';
+                                               echo '<div class="container"> <a href="'.$carpeta.$prefix_img.$i.'.jpg" rel="prettyPhoto[gal]"></a>';
+                                               echo '</div>';
+                                               echo '</li>';
+                                           }
+                                       ?>
                                    </ul>
                               </div>
                               <div id="carousel" class="flexslider">
                                    <ul class="slides">
 	                                   <?php
-		                                   for($i=1;$i<$total_imagenes+1;$i++){
-			                                 echo "<li> <img src=\"".$carpeta.$prefix_img.$i.".jpg\" alt=\"\" /> </li>";  
-		                                   }
-		                               ?>
+                                           for ($i = 1; $i < $total_imagenes + 1; $i++) {
+                                               echo '<li> <img src="'.$carpeta.$prefix_img.$i.'.jpg" alt="" /> </li>';
+                                           }
+                                       ?>
                                    </ul>
                               </div>
                          </section>
@@ -61,6 +61,6 @@
 -->
      </div>
      <footer>
-		 <?php include("footer.php"); ?>
+		 <?php include 'footer.php'; ?>
      </footer>
 </div>

@@ -2,8 +2,9 @@
 // Codigo a insertar al principio de la web
 function getTiempo()
 {
-list($usec, $sec) = explode(" ",microtime());
-return ((float)$usec + (float)$sec);
+    list($usec, $sec) = explode(' ', microtime());
+
+    return (float) $usec + (float) $sec;
 }
 $TiempoInicial = getTiempo();
 ?>
@@ -13,15 +14,15 @@ $TiempoInicial = getTiempo();
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-<?php include("head.php"); ?>
+<?php include 'head.php'; ?>
 </head>
 <body class="boxed">
 <header>
-<?php include("header.php"); ?>
+<?php include 'header.php'; ?>
 </header>
 <?php
-	switch($_GET["p"]){
-	default;
+    switch ($_GET['p']) {
+    default:
 ?>
 <div id="main">
      <div class="container">
@@ -279,43 +280,43 @@ $TiempoInicial = getTiempo();
             </div>
      </div>
      <footer>
-		 <?php include("footer.php"); ?>
+		 <?php include 'footer.php'; ?>
      </footer>
 </div>
 
 <?php
-	break;
-	case "csa";
-	
-	include("inc/csa.php");
+    break;
+    case 'csa':
+
+    include 'inc/csa.php';
 ?>
 <?php
-	break;
-	case "soraya";
-	
-	include("inc/sw.php");
+    break;
+    case 'soraya':
+
+    include 'inc/sw.php';
 ?>
 <?php
-	break;
-	case "anun";
-	
-	include("inc/aw.php");
+    break;
+    case 'anun':
+
+    include 'inc/aw.php';
 ?>
 <?php
-	break;
-	case "mr";
-	
-	include("inc/mr.php");
+    break;
+    case 'mr':
+
+    include 'inc/mr.php';
 ?>
 <?php
-	break;
-	case "mdh";
-	
-	include("inc/mdh.php");
+    break;
+    case 'mdh':
+
+    include 'inc/mdh.php';
 ?>
 
 <?php
-	}//cierro el switch
+    }//cierro el switch
 ?>
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/jquery-1.9.0.min.js"><\/script>')</script>
