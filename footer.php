@@ -67,16 +67,16 @@
                     <div class="row">
                          <div class="span6"> Wildmakers.com &copy;
                          	<?php
-                         		date_default_timezone_set('America/Santiago');
-                         		echo date("Y"); 
-                         	?> all rights reserved </div>
+                                 date_default_timezone_set('America/Santiago');
+                                 echo date('Y');
+                             ?> all rights reserved </div>
                          <div class="span6 text-right"> <?php
-echo " Time to load: ";
-	 $TiempoFinal = getTiempo();
-	 $Tiempo = $TiempoFinal - $TiempoInicial;
-	 $Tiempo = round($Tiempo,4);
-echo $Tiempo*100;
-echo " ms.";
+echo ' Time to load: ';
+     $TiempoFinal = getTiempo();
+     $Tiempo = $TiempoFinal - $TiempoInicial;
+     $Tiempo = round($Tiempo, 4);
+echo $Tiempo * 100;
+echo ' ms.';
 
 ?></div>
                     </div>

@@ -4,8 +4,9 @@ date_default_timezone_set('America/Santiago');
 // Codigo a insertar al principio de la web
 function getTiempo()
 {
-list($usec, $sec) = explode(" ",microtime());
-return ((float)$usec + (float)$sec);
+    list($usec, $sec) = explode(' ', microtime());
+
+    return (float) $usec + (float) $sec;
 }
 $TiempoInicial = getTiempo();
 ?>
@@ -15,11 +16,11 @@ $TiempoInicial = getTiempo();
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-<?php include("head.php"); ?>
+<?php include 'head.php'; ?>
 </head>
 <body class="boxed">
 <header>
-<?php include("header.php"); ?>
+<?php include 'header.php'; ?>
 </header>
 
 <section id="slider_wrapper" class="full_page_photo">
@@ -105,7 +106,7 @@ $TiempoInicial = getTiempo();
           </section>
      </div>
      <footer>
-		 <?php include("footer.php"); ?>
+		 <?php include 'footer.php'; ?>
      </footer>
 </div>
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
@@ -123,7 +124,7 @@ $TiempoInicial = getTiempo();
 <script type="text/javascript" src="js/wufoo.js"></script>
 
 <!-- Analytics tracking -->
-<?php include_once("analyticstracking.php") ?>
+<?php include_once 'analyticstracking.php'?>
 
 </body>
 </html>

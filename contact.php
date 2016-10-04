@@ -2,8 +2,9 @@
 // Codigo a insertar al principio de la web
 function getTiempo()
 {
-list($usec, $sec) = explode(" ",microtime());
-return ((float)$usec + (float)$sec);
+    list($usec, $sec) = explode(' ', microtime());
+
+    return (float) $usec + (float) $sec;
 }
 $TiempoInicial = getTiempo();
 ?>
@@ -13,11 +14,11 @@ $TiempoInicial = getTiempo();
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-<?php include("head.php"); ?>
+<?php include 'head.php'; ?>
 </head>
 <body class="boxed">
 <header>
-<?php include("header.php"); ?>
+<?php include 'header.php'; ?>
 </header>
 <div class="full_page_photo">
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3329.5264053544815!2d-70.6295574!3d-33.435589500000006!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5844256480b%3A0x2477bc8e6731837d!2sProvidencia+337%2C+Providencia%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses-419!2scl!4v1409849544773" width="100%" height="400" frameborder="0" style="border:0"></iframe>
@@ -122,7 +123,7 @@ $TiempoInicial = getTiempo();
           <!--END Contact-->
      </div>
      <footer>
-		 <?php include("footer.php"); ?>
+		 <?php include 'footer.php'; ?>
      </footer>
 </div>
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>

@@ -19,31 +19,26 @@
                     <div class="nav-collapse collapse">
                          <ul class="nav pull-right">
                          <?php
-                         $url = $_SERVER["REQUEST_URI"];
-                         $url = explode("/", $url);
+                         $url = $_SERVER['REQUEST_URI'];
+                         $url = explode('/', $url);
                          $url = $url[1];
-                         
+
                          //echo "URL: ".$url;
-                         
-                         if($url=="index.php" OR $url==""){
-	                         $ia ='class="active"';
+
+                         if ($url == 'index.php' or $url == '') {
+                             $ia = 'class="active"';
+                         } elseif ($url == 'about_us.php') {
+                             $aa = 'class="active"';
+                         } elseif ($url == 'what_we_do.php') {
+                             $sa = 'class="active"';
+                         } elseif ($url == 'our_wines.php') {
+                             $pa = 'class="active"';
+                         } elseif ($url == 'our_inspiration.php') {
+                             $ba = 'class="active"';
+                         } elseif ($url == 'contact.php') {
+                             $ca = 'class="active"';
                          }
-                         elseif($url=="about_us.php"){
-	                         $aa ='class="active"';
-                         }
-                         elseif($url=="what_we_do.php"){
-	                         $sa ='class="active"';
-                         }
-                         elseif($url=="our_wines.php"){
-	                         $pa ='class="active"';
-                         }
-                         elseif($url=="our_inspiration.php"){
-	                         $ba ='class="active"';
-                         }
-                         elseif($url=="contact.php"){
-	                         $ca ='class="active"';
-                         }
-                         
+
                          ?>
                               <li <?php echo $ia; ?>><a href="index.php">Intro</a></li>
                               <li <?php echo $aa; ?>><a href="about_us.php">Winemakers</a></li>
