@@ -7,9 +7,6 @@ old/
 new/
 /.idea
 *.sh
-
+*.DS_Store
 bkp_wildmakers_130702015.tar.gz
-
-.idea/workspace.xml
-
 .idea/workspace.xml
