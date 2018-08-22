@@ -24,6 +24,12 @@
                          $url = $url[1];
 
                          //echo "URL: ".$url;
+                         $ia = '';
+                         $aa = '';
+                         $sa = '';
+                         $pa = '';
+                         $ba = '';
+                         $ca = '';
 
                          if ($url == 'index.php' or $url == '') {
                              $ia = 'class="active"';
