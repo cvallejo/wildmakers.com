@@ -36,7 +36,7 @@
                                         <p>Claude and Lydia Bourguignon to observe and test a soil profile from our recent 10.000 plants per hectare Cabernet Franc plantation...</p>
                                    </li>
                                    <li class="media"> <a href="#" class="media-photo" style="background-image:url(images/portfolio/t4.jpg)"></a> <a href="#"  class="media-date">18<span>DEC</span></a>
-                                        <h5 class="media-heading"><a href="http://issuu.com/wildmakers.com/docs/seminario_terroir_lydia_y_claude_bo/0" target="_blank">Seminario Terroir</a></h5>
+                                        <h5 class="media-heading"><a href="//issuu.com/wildmakers.com/docs/seminario_terroir_lydia_y_claude_bo/0" target="_blank">Seminario Terroir</a></h5>
                                         <p>Exclusive event where the best soil experts will expose their views on chilean terroir...</p>
                                    </li>
                               </ul>
